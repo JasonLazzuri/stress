@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src='js/jquery-3.2.0.js'></script>
+    <script src='js/scripts.js'></script>
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>ARE YOU STRESSED!?!?</h1>
+      </div>
+        <form id="form1">
+          <div class="form-group">
+            <p>Signs that you are Stressed:</p>
+            <input type="checkbox" name="warning" value="sleep">Loss of Sleep</input><br>
+            <input type="checkbox" name="warning" value="overwhelmed">Feeling Overwhelmed</input><br>
+            <input type="checkbox" name="warning" value="appetite">Loss of Appetite</input><br>
+            <input type="checkbox" name="warning" value="mood">Easily Irritated</input><br>
+            <input type="checkbox" name="warning" value="pressure">High Blood Pressure</input><br>
+            <input type="checkbox" name="warning" value="weight">Weight Gain</input><br>
+            <input type="checkbox" name="warning" value="anxiety">High levels of Anxiety</input><br>
+            <input type="checkbox" name="warning" value="suicide">Suicidal Thoughts</input><br>
+          </div>
+          <div class="form-group2">
+            <p>How do you cope with stress?</p>
+            <input type="checkbox" name="coping" value="music">listen to relaxing music</input><br>
+            <input type="checkbox" name="coping" value="weed">smoke medically approved weed</input><br>
+            <input type="checkbox" name="coping" value="workout">excercise</input><br>
+            <input type="checkbox" name="coping" value="dog">play with a dog</input><br>
+            <input type="checkbox" name="coping" value="fun">play games</input><br>
+            <input type="checkbox" name="coping" value="social">socialize with others</input><br>
+            <input type="checkbox" name="coping" value="movie">watch a movie</input><br>
+            <input type="checkbox" name="coping" value="water">drink water</input><br>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <span id="good">
+        <p><b>You are doing an amazing job!</b></p>
+      </span>
+      <span id="bad">
+        <p><b>You are too stressed! Check out this website:<a href="http://www.apa.org/helpcenter/work-stress.aspx"> CLICK HERE </a></b></p>
+      </span>
+      <span id="almost">
+        <p><b>Be careful! You're almost too stressed!</b></p>
+      </span>
+      </div>
+    </div>
+  </body>
+</html>
